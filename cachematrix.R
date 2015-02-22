@@ -3,11 +3,11 @@
 
 ## Write a short comment describing this function
 
-## The makeVector function creates a special "vector", which is really a list containing a function to
-## set the value of the vector
-## get the value of the vector
-## set the value of the mean
-## get the value of the mean
+## This function will return a list with functions to:
+## set the value of the matrix
+## get the value of the matrix
+## set the value of the inverted matrix
+## get the value of the inverted matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 m <- NULL
